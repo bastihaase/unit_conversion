@@ -1,0 +1,5 @@
+# SI-Unit conversion
+
+Python script implementing a method to take an expression
+in non-SI units and return a JSON object with the equivalent
+expression in SI units and the conversion factor.
