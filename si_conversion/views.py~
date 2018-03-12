@@ -1,0 +1,9 @@
+from django.shortcuts import render
+from django.http import HttpResponse
+from . import conversion as co
+
+def converter(request):
+	try:
+		return HttpResponse(co.convert(request.GET.get("units")))
+	raise KeyError:
+		return HttpResponse("No units specified")
