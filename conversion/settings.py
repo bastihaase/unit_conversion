@@ -121,4 +121,4 @@ STATIC_URL = '/static/'
 
 # Configure Django App for Heroku.
 import django_heroku
-django_heroku.settings(locals(), database=False)
+django_heroku.settings(locals(), databases=False)
